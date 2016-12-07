@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index page</title>
+    <style>
+        tbody td {
+            text-align: center
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- build:css -->
+    <link rel="stylesheet" href="../CSS/stockTicker.css">
+    <!-- endbuild -->
+
+</head>
+
+<body>
+
+    <div id="page" data-bind="component: { name: route().page, params: route }"></div>
+</body>
+
+<!-- build:js -->
+
+<script src="Scripts/require.config.js"></script>
+<script src="node_modules/requirejs/require.js" data-main="Scripts/startup"></script>
+
+<!-- endbuild -->
+
+</html>

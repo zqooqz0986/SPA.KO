@@ -1,0 +1,28 @@
+<div>
+    <table>
+        <colgroup>
+            <col width="20%">
+            <col width="20%">
+            <col width="20%">
+        </colgroup>
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Function</th>
+        </thead>
+        <tbody data-bind="foreach: { data: users, as: 'user' }">
+            <tr data-bind="click: $parent.select">
+                <td data-bind="text: user.name"></td>
+                <td data-bind="text: user.age"></td>
+                <td>
+                    <button type="button" data-bind="click: $parent.remove">remove</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="text" data-bind="textInput: newName">
+    <input type="text" data-bind="textInput: newAge">
+    <button type="button" data-bind="click: save" data-localize="addUser">add a new user</button>
+    <button type="button" data-bind="click: addYear">all age add 1 year</button>
+    <button type="button" data-bind="click: goStockTicker">go stock ticker</button>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "koproject",
+  "version": "1.0.0",
+  "description": "just for test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joseph.lu",
+  "license": "ISC",
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0",
+    "jquery": "^3.1.1",
+    "jquery-localize": "github:oSoMoN/jquery-localize.git#f031e4f3d1c24fe8db71f5384f88eede20168bbd",
+    "knockout": "^3.4.1",
+    "knockout-mapping": "^2.6.0",
+    "minimatch": "^3.0.3",
+    "object-assign": "^4.1.0",
+    "query-string": "^4.2.3",
+    "requirejs": "^2.3.2",
+    "strict-uri-encode": "^2.0.0",
+    "text": "github:requirejs/text"
+  },
+  "devDependencies": {
+    "deeply": "^2.0.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-requirejs-bundler": "^0.1.1",
+    "gulp-uglify": "^2.0.0"
+  }
+}

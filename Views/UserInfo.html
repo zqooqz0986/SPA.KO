@@ -1,0 +1,13 @@
+<!-- ko if: userInfo -->
+<div>
+    <div>User Info</div>
+    <div><input type="text" readonly data-bind="textInput: userInfo.name"></div>
+    <div><input type="text" readonly data-bind="textInput: userInfo.age"></div>
+
+    <button type="button" data-bind="click: goHome">go list !</button>
+</div>
+<!-- /ko -->
+
+<!-- ko ifnot: userInfo -->
+<div>No such user !</div>
+<!-- /ko -->
